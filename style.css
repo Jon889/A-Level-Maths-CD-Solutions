@@ -1,0 +1,61 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#content {
+    padding: 10px;
+}
+#header {
+    background: gray;
+    width:100%;
+    color: white;
+    text-align: center;
+}
+#header table {
+    width: 100%;
+}
+#goButton {
+    background: #57E964;
+    cursor: pointer;
+}
+#next {
+    border-left: 1px solid white;
+    cursor: pointer;
+    height: 40px;
+}
+#previous {
+    cursor: pointer;
+    height:40px;
+}
+#messages > div > span {
+    background:gray;
+    line-height:20px;
+    margin:0;
+    padding: 0 5px;
+}
+#messages > div > span > a {
+    color: inherit;
+}
+#messages {
+    text-align:left;
+    background: white;
+}
+#messages > * > *, #messages > * {
+    float: left;
+}
+#title:after {
+    content: '';
+    display: inline-block;
+    border-left: 20px solid gray;
+    border-bottom: 20px solid transparent;
+}
+#menu:before {
+    content: '';
+    float: left;
+    display: inline-block;
+    border-right: 20px solid gray;
+    border-bottom: 20px solid transparent;
+}
+#menu {
+    float:right;
+}
